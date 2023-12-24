@@ -44,38 +44,38 @@ working_directory: "C:\\Users\\Home"
 
 # Keyboard settings
 key_bindings:
-  # Paste
-  - { key: V,        mods: Control, action: Paste            }
-  # Copy
-  - { key: C,        mods: Control, action: Copy             }
-  # Open new instance of Alacritty
-  - { key: N,        mods: Control, action: SpawnNewInstance }
+  # Paste with Alt+V
+  - { key: V, mods: Alt, action: Paste }
+  # Copy with Alt+C
+  - { key: C, mods: Alt, action: Copy }
+  # Open new instance of Alacritty with Ctrl+N
+  - { key: N, mods: Alt, action: SpawnNewInstance }
 
 # Colors (example with a Dracula theme)
 colors:
   # Default colors
   primary:
-    background: '0x282a36'
-    foreground: '0xf8f8f2'
+    background: "0x282a36"
+    foreground: "0xf8f8f2"
 
   # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xff5555'
-    green:   '0x50fa7b'
-    yellow:  '0xf1fa8c'
-    blue:    '0xbd93f9'
-    magenta: '0xff79c6'
-    cyan:    '0x8be9fd'
-    white:   '0xbfbfbf'
+    black: "0x000000"
+    red: "0xff5555"
+    green: "0x50fa7b"
+    yellow: "0xf1fa8c"
+    blue: "0xbd93f9"
+    magenta: "0xff79c6"
+    cyan: "0x8be9fd"
+    white: "0xbfbfbf"
 
   # Bright colors
   bright:
-    black:   '0x4d4d4d'
-    red:     '0xff6e67'
-    green:   '0x5af78e'
-    yellow:  '0xf4f99d'
-    blue:    '0xcaa9fa'
-    magenta: '0xff92d0'
-    cyan:    '0x9aedfe'
-    white:   '0xe6e6e6'
+    black: "0x4d4d4d"
+    red: "0xff6e67"
+    green: "0x5af78e"
+    yellow: "0xf4f99d"
+    blue: "0xcaa9fa"
+    magenta: "0xff92d0"
+    cyan: "0x9aedfe"
+    white: "0xe6e6e6"
