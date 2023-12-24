@@ -1,0 +1,81 @@
+# Alacritty Configuration Sample
+
+window:
+  # Window dimensions (change values to your preference)
+  dimensions:
+    columns: 100
+    lines: 30
+
+  # Window padding (space between the text and window border)
+  padding:
+    x: 5
+    y: 5
+
+  # Window title
+  title: "Alacritty"
+
+# Font settings
+font:
+  # Specify the font family
+  normal:
+    family: "FiraCode Nerd Font"
+    style: Bold
+
+  # Specify the font size
+  size: 20.0
+
+  # Use bold and italic font styles
+  bold:
+    family: "FiraCode Nerd Font"
+    style: Bold
+  italic:
+    family: "FiraCode Nerd Font"
+    style: Italic
+
+# Cursor settings
+cursor:
+  # Cursor style (Block, Underline, Beam)
+  style: Block
+  # Cursor blinking
+  blink_interval: 750
+
+# Directory the shell is started in.
+working_directory: "C:\\Users\\Home"
+
+# Keyboard settings
+key_bindings:
+  # Paste
+  - { key: V,        mods: Control, action: Paste            }
+  # Copy
+  - { key: C,        mods: Control, action: Copy             }
+  # Open new instance of Alacritty
+  - { key: N,        mods: Control, action: SpawnNewInstance }
+
+# Colors (example with a Dracula theme)
+colors:
+  # Default colors
+  primary:
+    background: '0x282a36'
+    foreground: '0xf8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '0x4d4d4d'
+    red:     '0xff6e67'
+    green:   '0x5af78e'
+    yellow:  '0xf4f99d'
+    blue:    '0xcaa9fa'
+    magenta: '0xff92d0'
+    cyan:    '0x9aedfe'
+    white:   '0xe6e6e6'
