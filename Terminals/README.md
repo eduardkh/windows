@@ -18,6 +18,8 @@ alacritty --config-file "C:\paoth\to\alacritty.yml"
 dir %APPDATA%\alacritty
 # in PS the location is here
 dir $env:APPDATA\alacritty
+# yaml is depricated migrated to toml
+alacritty migrate
 ```
 
 > starship (Themes and stuff)
